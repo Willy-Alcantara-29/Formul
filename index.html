@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title> <link rel="stylesheet" href="style.css">
+    <title>Suscribete</title> <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Contacto</h1>
+    <h1 class="Titulo">Suscribete</h1>
+
+    <p>
+       <b>Este apartado es para suscribirse a nuestro boletin</b>
+    </p>
     
+    <form method="get">
+        
+            Email <input name="submitted-email" autocomplete="email" class="Email" />
+        <br>
+        <br>
+            Nombre <input name="submitted-name" autocomplete="name" class="Nombre" />
 
+        <br>
+        <br>
+    </form>
 
-
+    <form action="/enviar" method="post">
+    <!-- otros campos del formulario -->
+    <input type="submit" value="Enviar" class="btn-enviar">
 </form>
 </body>
 </html>
