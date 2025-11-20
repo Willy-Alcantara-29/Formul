@@ -14,7 +14,7 @@ entradaFormulario
 })
 // Paso 2: Aparecen los textos, inputs y el botón en escalera
 .add({
-  targets: ['.titulo', '.Email', '.Nombre', '.btn-enviar'], // Clases de tus elementos internos
+  targets: ['title', '.Email', '.Nombre', '.btn-enviar'], // Clases de tus elementos internos
   translateY: [20, 0], // Se mueven 20px hacia arriba
   opacity: [0, 1],     // Aparecen
   delay: anime.stagger(50), // Cada elemento espera 50ms más que el anterior
